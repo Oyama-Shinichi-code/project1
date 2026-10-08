@@ -28,8 +28,10 @@
 - Webアプリ: フレームワークに応じた標準的なテストツール（例: Jest, Vitest, Playwright 等）を導入し次第ここに追記する。
 
 ## Git運用
+- 本プロジェクトは GitHub リモート `origin` (https://github.com/Oyama-Shinichi-code/project1.git) と連携済み。以降は push/pull を通じてGitHubと同期する運用とする。
 - コミットは意味のある単位に分割する。
 - コミットメッセージは「なぜ」を中心に簡潔に記載する。
+- push・pull 等のリモート操作を行う前は `git status` で作業ツリーの状態を確認する。
 - destructive な操作（force push, reset --hard 等）はユーザーの明示的な許可があるまで実行しない。
 
 ## セキュリティ
